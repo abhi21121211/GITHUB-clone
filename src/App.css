@@ -1,3 +1,8 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #171717;
+  font-weight: 600;
+}
 .App {
   text-align: center;
 }
@@ -5,6 +10,44 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.dropdown-menu{
+  --bs-dropdown-min-width: 30rem;
+  
+}
+.octicon{
+  color: white;
+}
+.navbar{
+  background: transparent;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  transition: background 0.3s, color 0.3s;
+}
+.nav-link{
+  color: white;
+}
+.btn{
+  background: black;
+color: white;
+
+}
+.btn:hover{
+  background: rgb(74, 73, 73);
+color: rgb(219, 218, 218);
+
+}
+.img{
+  background: url(https://addons-media.operacdn.com/media/CACHE/images/themes/33/243033/1.0-rev1/images/5dce46632490304ba4d5ea80aab18f78/6412b43fdec5dc48a7e05b604708fdd8.jpg);
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
 }
 
 @media (prefers-reduced-motion: no-preference) {
