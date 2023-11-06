@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { BsGithub } from 'react-icons/bs';
+import image from './images/Invoke-AI_image.jpg';
+
 function App() {
   return (
     <div className="App">
@@ -344,30 +346,46 @@ function App() {
 
         <div className='div-2'>
 
-          <div style={{ background: "linear-gradient(#d2a8ff, #a371f7 10%, #196c2e 70%, #2ea043 80%, #56d364)" }} class=" div-2-r">
+          <div style={{ background: "linear-gradient(#d2a8ff, #a371f7 10%, #196c2e 70%, #2ea043 80%, #56d364)" }} class=" div-2-l">
           </div>
-          <div className='div-2-l'>
+          <div className='div-2-r'>
             <p>Productivity</p>
 
             <span className=''>Accelerate high-quality software development. </span><h1>
               Our AI-powered platform drives innovation with tools that boost developer velocity.</h1>
 
 
+            <div className='div-3'>
 
+              <img src={image} alt="" />
 
+              <div className='div-3-con-2-l d-flex'>
+                <div><span>GitHub Codespaces</span><p>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                </p>
+                  <h4>Check out GitHub Codespaces </h4>
+                </div>
+                <div><img src="https://github.githubassets.com/assets/illo-ports-cb650eaf237c.png" alt="" /></div>
+              </div>
 
-            
             </div>
+
+
+
           </div>
+
 
         </div>
 
 
 
-
       </div>
 
-      );
+
+
+
+    </div>
+
+  );
 }
 
-      export default App;
+export default App;
