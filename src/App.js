@@ -358,17 +358,29 @@ function App() {
             <div className='div-3'>
 
               <img src={image} alt="" />
+            </div>
 
-              <div className='div-3-con-2-l d-flex'>
-                <div><span>GitHub Codespaces</span><p>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
-                </p>
-                  <h4>Check out GitHub Codespaces </h4>
-                </div>
-                <div><img src="https://github.githubassets.com/assets/illo-ports-cb650eaf237c.png" alt="" /></div>
+            <div className=' div-4 d-flex'>
+              <div className='div-4-con-1-l'><p><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+              </p>
+                <h4>Check out GitHub Codespaces </h4>
+              </div>
+              <div className='div-4-con-1-r'><img className='img-1' src="https://github.githubassets.com/assets/illo-ports-cb650eaf237c.png" alt="" />
+                <img className='img-2' src="https://github.githubassets.com/assets/illo-context-menu-51a3417d6621.png" alt="" /></div>
+            </div>
+
+            <div className='div-5 d-flex '>
+              <div className='div-5-l'>
+                <img src="https://github.githubassets.com/assets/git-branch-productivity-c304b83d09c7.svg" alt="" />
+              </div>
+              <div className='div-5-r'>
+                <button>Did you know?</button>
+                <h1>22% increase</h1>
+                <p>in developer productivity
+                  after three years with GitHub1</p>
               </div>
 
             </div>
-
 
 
           </div>
