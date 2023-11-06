@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BsGithub } from 'react-icons/bs';
 import image from './images/Invoke-AI_image.jpg';
-
+import sOne from './images/6-1.jpg';
 function App() {
   return (
     <div className="App">
@@ -382,6 +382,16 @@ function App() {
 
             </div>
 
+            <div className='div-6'>
+              <div>
+                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                </p>
+                <h4>Check out GitHub Codespaces </h4>
+              </div>
+              <div>
+                <img src={sOne} alt="" />
+              </div>
+            </div>
 
           </div>
 
