@@ -393,9 +393,56 @@ function App() {
               </div>
             </div>
 
+            <div className='div-7'>
+              <div>
+                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                </p>
+                <h4>Check out GitHub Codespaces </h4>
+                <img src="https://github.githubassets.com/assets/illu-actions-db55ffb47888.png?width=967&format=webpll" alt="" />
+              </div>
+              <div>
+                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                </p>
+                <h4>Check out GitHub Codespaces </h4>
+                <img src="https://github.githubassets.com/assets/illu-mobile-4d51d19f769e.png?width=966&format=webpll" alt="" />
+              </div>
+            </div>
+
+            <div className='div-8'>
+              <p>Collaboration</p>
+              <h1><span>Supercharge collaboration. </span>  We provide unlimited repositories, best-in-class version control, and the world’s most powerful open source community—so your team can work more efficiently together.</h1>
+            </div>
+
+
+            <div className='div-9'>
+              <img src="https://github.githubassets.com/assets/issues-plan-3282274c574b.png?width=2000&format=webpll" alt="" />
+            </div>
+
+            <div className='div-10'>
+              <div>
+                <p ><span>GitHub Issues and GitHub Projects </span> supply flexible project management tools that adapt to your team alongside your code.
+                </p>
+                <h4>Explore GitHub Issues </h4>
+              </div>
+              <div>
+                <img src="https://github.githubassets.com/assets/illu-projects-a97f6088923d.png" alt="" />
+              </div>
+
+            </div>
+            <div className='div-11 d-flex '>
+              <div className='div-11-l'>
+                <img src="https://github.githubassets.com/assets/git-branch-productivity-c304b83d09c7.svg" alt="" />
+              </div>
+              <div className='div-11-r'>
+                <button>Did you know?</button>
+                <h1>22% increase</h1>
+                <p>in developer productivity
+                  after three years with GitHub1</p>
+              </div>
+
+            </div>
           </div>
-
-
+          
         </div>
 
 
