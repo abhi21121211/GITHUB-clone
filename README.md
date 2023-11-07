@@ -50,7 +50,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## Contact
 
 - Author: Your Name
-- Email: your@email.com
+- Email: abhishekdukare111@gmail.com
 
 ## Acknowledgments
 
