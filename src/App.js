@@ -443,7 +443,31 @@ function App() {
 
             </div>
 
+            <div className='div-7'>
+              <div>
+                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                </p>
+                <h4>Check out GitHub Codespaces </h4>
+                <img src="https://github.githubassets.com/assets/illu-actions-db55ffb47888.png?width=967&format=webpll" alt="" />
+              </div>
+              <div>
+                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                </p>
+                <h4>Check out GitHub Codespaces </h4>
+                <img src="https://github.githubassets.com/assets/illu-mobile-4d51d19f769e.png?width=966&format=webpll" alt="" />
+              </div>
+            </div>
 
+            <div className='div-6 mt-5 '>
+              <div>
+                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                </p>
+                <h4>Check out GitHub Codespaces </h4>
+              </div>
+              <div>
+                <img src={sOne} alt="" />
+              </div>
+            </div>
 
           </div>
 
