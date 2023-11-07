@@ -3,10 +3,11 @@ import './App.css';
 import { BsGithub } from 'react-icons/bs';
 import image from './images/Invoke-AI_image.jpg';
 import sOne from './images/6-1.jpg';
+import footer from './images/footer.jpg';
 function App() {
   return (
     <div className="App">
-      <nav className="navbar navbar-expand-lg z-index-10 " >
+      <nav className="navbar navbar-expand-lg z-index-10  navbar-nav-scroll-on" >
         <div className="container-fluid">
           <BsGithub size={"30"} />
           {/* <a className="navbar-brand" href="#">Navbar scroll</a> */}
@@ -441,11 +442,18 @@ function App() {
               </div>
 
             </div>
+
+
+
           </div>
+
           
+
         </div>
 
-
+        <div className='footer'>
+            <img src={footer} alt="" />
+          </div>
 
       </div>
 

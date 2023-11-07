@@ -440,7 +440,20 @@ border-radius: 50px;
     font-size: 20px;
   }
 
+  .footer{
+    width: 100%;
 
+  }
+  .footer img{
+    width: 100%;
+    
+  }
+
+
+  .navbar-nav-scroll-on{
+    background: black;
+    height: 70px;
+  }
 
 
 
