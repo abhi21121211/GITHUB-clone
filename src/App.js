@@ -4,6 +4,7 @@ import { BsGithub } from 'react-icons/bs';
 import image from './images/Invoke-AI_image.jpg';
 import sOne from './images/6-1.jpg';
 import footer from './images/footer.jpg';
+import div12img from './images/div-12-img.jpeg';
 function App() {
   return (
     <div className="App">
@@ -436,22 +437,21 @@ function App() {
               </div>
               <div className='div-11-r'>
                 <button>Did you know?</button>
-                <h1>22% increase</h1>
-                <p>in developer productivity
-                  after three years with GitHub1</p>
+                <h1>80% reduction</h1>
+                <p>in onboarding time with GitHub1</p>
               </div>
 
             </div>
 
             <div className='div-7'>
               <div>
-                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                <p ><span>GitHub Codespaces </span>create space to ask questions and have open-ended conversations.
                 </p>
                 <h4>Check out GitHub Codespaces </h4>
                 <img src="https://github.githubassets.com/assets/illu-actions-db55ffb47888.png?width=967&format=webpll" alt="" />
               </div>
               <div>
-                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                <p ><span>Pull requests </span> allow real-time communication and collaboration about code changes.
                 </p>
                 <h4>Check out GitHub Codespaces </h4>
                 <img src="https://github.githubassets.com/assets/illu-mobile-4d51d19f769e.png?width=966&format=webpll" alt="" />
@@ -460,7 +460,7 @@ function App() {
 
             <div className='div-6 mt-5 '>
               <div>
-                <p ><span>GitHub Codespaces </span>offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere.
+                <p ><span>GitHub Sponsors </span> lets you support your favorite open source maintainers and projects.
                 </p>
                 <h4>Check out GitHub Codespaces </h4>
               </div>
@@ -469,15 +469,98 @@ function App() {
               </div>
             </div>
 
+            <div className='div-8'>
+              <p>Security</p>
+              <h1><span className='text-primary'>Embed security into the developer </span>  workflow. With GitHub, developers can secure their code in minutes and organizations can automatically comply with regulations.</h1>
+            </div>
+
+            <div className='div-12'>
+              <h4>cmake.yml
+                on: push</h4>
+              <img src="https://i.stack.imgur.com/1D2cO.png" alt="" />
+            </div>
+
+            <div className='div-10 align-items-end mt-5'>
+              <div>
+                <p ><span>GitHub Advanced Security </span>  lets you gain visibility into your security posture, respond to threats proactively, and ship secure applications quickly.
+                </p>
+                <h4>Get GitHub Advanced Security  </h4>
+              </div>
+              <div>
+                <img className='mb-5 ' src="https://github.githubassets.com/assets/illu-ghas-list-84af1f1ce2b8.png" alt="" />
+              </div>
+
+            </div>
+
+            <div className='div-5 d-flex '>
+              <div className='div-5-l'>
+                <img src="https://github.githubassets.com/assets/git-branch-security-a1be26173d7b.svg" alt="" />
+              </div>
+              <div className='div-13-r'>
+                <button>Did you know?</button>
+                <h1>56 million projects</h1>
+                <p>fixed vulnerabilities with GitHub2</p>
+              </div>
+
+            </div>
+
+            <div className='div-14'>
+              <div>
+                <p ><span>Secret scanning </span>automatically looks for partner patterns and prevents fraudulent use of accidentally committed secrets.
+                </p>
+                <h4>Read about secret scanning  </h4>
+              </div>
+              <div>
+                <img src="https://github.githubassets.com/assets/illu-secret-scanning-8b1a09f4d09c.png?width=1030&format=webpll" alt="" />
+              </div>
+            </div>
+
+            <div className='div-7'>
+              <div>
+                <p ><span>GDependabot </span> makes it easy to find and fix vulnerable dependencies in your supply chain.
+                </p>
+                <h4>Explore Dependabot  </h4>
+                <img src="https://github.githubassets.com/assets/illu-dependabot-d98c73cc6724.png?width=966&format=webpll" alt="" />
+              </div>
+              <div>
+                <p ><span>Code scanning </span>is GitHub’s static code analysis tool that helps you remediate issues in your code.
+                </p>
+                <h4>Download the latest SAST ebook </h4>
+                <img src="https://github.githubassets.com/assets/illu-code-scanning-fc9dfb212aa3.png?width=966&format=webpll" alt="" />
+              </div>
+            </div>
+
+            <div className='div-15'>
+              <h1>The place for anyone from anywhere to build anything</h1>
+              <p>Whether you’re scaling your startup or just learning how to code, GitHub is your home. Join the world’s largest developer platform to build the innovations that empower humanity. Let’s build from here.</p>
+              <div>
+                <div class="mx-auto width-full home-globe position-relative height-full js-webgl-globe">
+                  <video width="916" height="918" loop="" muted="" playsinline="" preload="none" class="home-globe-container-video js-globe-fallback-video " hidden="">
+                    <source type="video/mp4; codecs=hevc,mp4a.40.2" src="https://github.githubassets.com/assets/globe-900.hevc-58019d77b21c.mp4" />
+                    <source type="video/mp4; codecs=avc1.4D401E,mp4a.40.2" src="https://github.githubassets.com/assets/globe-900.h264-975e7b5ac572.mp4" />
+                  </video>
+                  <video loop="" muted="" playsinline="" preload="none" class="home-globe-container-video js-globe-fallback-video-small" hidden="">
+                    <source type="video/mp4; codecs=hevc,mp4a.40.2" src="https://github.githubassets.com/assets/globe-500.hevc-42032a395ff1.mp4" />
+                    <source type="video/mp4; codecs=avc1.4D401E,mp4a.40.2" src="https://github.githubassets.com/assets/globe-500.h264-f00ceaddc706.mp4" />
+                  </video>
+                  <img srcset="https://github.githubassets.com/assets/globe-700-7504469d0f87.jpg 700w,
+                https://github.githubassets.com/assets/globe-d6f3f4ee645a.jpg 1400w" sizes="(max-width: 700px) 70vw, 700px" src="https://github.githubassets.com/assets/globe-d6f3f4ee645a.jpg" alt="Planet earth with visualization of GitHub activity crossing the globe" class="width-full height-auto js-globe-fallback-image" loading="lazy" decoding="async" width="1238" height="1404" hidden="" />
+
+
+
+                  <canvas width="1350" height="1350" class="webgl-canvas js-globe-canvas" style={{display: "block", width:"900px", height: "900px"}}></canvas></div>
+              </div>
+            </div>
+
           </div>
 
-          
+
 
         </div>
 
         <div className='footer'>
-            <img src={footer} alt="" />
-          </div>
+          <img src={footer} alt="" />
+        </div>
 
       </div>
 
