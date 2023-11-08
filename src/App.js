@@ -348,7 +348,7 @@ function App() {
 
         <div className='div-2'>
 
-          <div style={{ background: "linear-gradient(#d2a8ff, #a371f7 10%, #196c2e 70%, #2ea043 80%, #56d364)" }} class=" div-2-l">
+          <div style={{ background: "linear-gradient(#d2a8ff, #a371f7 10%, #196c2e 70%, #2ea043 80%, #56d364 ,#adb3e4 )" }} class=" div-2-l">
           </div>
           <div className='div-2-r'>
             <p>Productivity</p>
@@ -530,25 +530,14 @@ function App() {
               </div>
             </div>
 
-            <div className='div-15'>
+            <div className='div-15 '>
               <h1>The place for anyone from anywhere to build anything</h1>
               <p>Whether you’re scaling your startup or just learning how to code, GitHub is your home. Join the world’s largest developer platform to build the innovations that empower humanity. Let’s build from here.</p>
               <div>
-                <div class="mx-auto width-full home-globe position-relative height-full js-webgl-globe">
-                  <video width="916" height="918" loop="" muted="" playsinline="" preload="none" class="home-globe-container-video js-globe-fallback-video " hidden="">
-                    <source type="video/mp4; codecs=hevc,mp4a.40.2" src="https://github.githubassets.com/assets/globe-900.hevc-58019d77b21c.mp4" />
-                    <source type="video/mp4; codecs=avc1.4D401E,mp4a.40.2" src="https://github.githubassets.com/assets/globe-900.h264-975e7b5ac572.mp4" />
-                  </video>
-                  <video loop="" muted="" playsinline="" preload="none" class="home-globe-container-video js-globe-fallback-video-small" hidden="">
-                    <source type="video/mp4; codecs=hevc,mp4a.40.2" src="https://github.githubassets.com/assets/globe-500.hevc-42032a395ff1.mp4" />
-                    <source type="video/mp4; codecs=avc1.4D401E,mp4a.40.2" src="https://github.githubassets.com/assets/globe-500.h264-f00ceaddc706.mp4" />
-                  </video>
-                  <img srcset="https://github.githubassets.com/assets/globe-700-7504469d0f87.jpg 700w,
-                https://github.githubassets.com/assets/globe-d6f3f4ee645a.jpg 1400w" sizes="(max-width: 700px) 70vw, 700px" src="https://github.githubassets.com/assets/globe-d6f3f4ee645a.jpg" alt="Planet earth with visualization of GitHub activity crossing the globe" class="width-full height-auto js-globe-fallback-image" loading="lazy" decoding="async" width="1238" height="1404" hidden="" />
-
-
-
-                  <canvas width="1350" height="1350" class="webgl-canvas js-globe-canvas" style={{display: "block", width:"900px", height: "900px"}}></canvas></div>
+                <img src="https://github.githubassets.com/assets/globe-700-7504469d0f87.jpg" alt="" />
+              </div>
+              <div className='div-15-img2'>
+                <img  src="https://github.githubassets.com/assets/astrocat-c96b6ce0d913.png" alt="" />
               </div>
             </div>
 

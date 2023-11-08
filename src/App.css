@@ -537,8 +537,30 @@ margin-left: 1px;
   .div-14 img:hover{
     box-shadow: rgba(87, 52, 126, 0.56) 0px 22px 70px 4px;
   }
+.div-15{
+  margin: auto;
+ align-items: center;
+ text-align: center;
+ width: 500px;
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+.div-15 h1{
+  font-size: 30px;
+}
+.div-15 p{
+font-size: 20px;
+}
 
+.div-15 img{
+  margin: auto;
+  width: 600px;
+margin-left: -50px;
+}
 
+.div-15-img2{
+  margin-top: -300px;
+}
 
 
 
